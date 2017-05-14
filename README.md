@@ -1,1 +1,1 @@
-# FriendFinder
+This will be my first commit after setting up the folder and creating JavaScript direction.
