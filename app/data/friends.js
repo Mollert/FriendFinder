@@ -4,7 +4,7 @@ var friendsArray = [
 		"name": "Anita",
 		"photo": "/images/Anita.JPG",
 		"scores": [5, 4, 5, 4, 1, 2, 2, 3, 5, 2]
-	}, 
+	},
 	{
 		"name": "Beth",
 		"photo": "/images/Beth.JPG",
@@ -52,25 +52,38 @@ var friendsArray = [
 	}
 ];
 
-var submittal = [3, 4, 1, 2, 5, 4, 3, 2, 3, 1];
-var results = [];
-var carrier = 0;
-var total = 0;
-var smallest = 0;
+// var submittal = [3, 4, 5, 2, 5, 4, 5, 2, 3, 2];
+// var results = [];
+// var carrier = 0;
+// var total = 0;
+// var lowestNum = 90;
+// var friend = 0;
+// var smallest = 0;
+//
+// for (i=0; i<friendsArray.length; i++) {
+// 	total = 0;
+// 	for (j=0; j<10; j++) {
+// 		carrier = submittal[j] - friendsArray[i].scores[j];
+// 		carrier = Math.abs(carrier);
+// 		total = carrier + total;
+// 	}
+// 	if ( i > 0 ) {
+// 		if (total < lowestNum) {
+// 			lowestNum = total;
+// 			friend = i;
+// 		}
+// 	}
+// }
+//
+// console.log(lowestNum);
+// console.log(friendsArray[friend]);
 
-for (i=0; i<friendsArray.length; i++) {
-	total = 0;
-	for (j=0; j<10; j++) {
-		carrier = submittal[j] - friendsArray[i].scores[j];
-		carrier = Math.abs(carrier);
-		total = carrier + total;
-	}
-	results.push(total);
-	console.log(total);
-}
-console.log(results);
-
-smallest = Math.min(...results);
-console.log(smallest);
+// 	results.push(total);
+// 	console.log(total);
+// }
+// console.log(results);
+//
+// smallest = Math.min(...results);
+// console.log(smallest);
 
 module.exports = friendsArray;

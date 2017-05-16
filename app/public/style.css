@@ -21,6 +21,8 @@ body {
 
 .required {
   margin-top: 20px;
+  font-size: 120%;
+  font-weight: bold;
 }
 
 .questions h2 {
