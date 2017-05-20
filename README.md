@@ -1,1 +1,1 @@
-After adding the "static" the app works other than posting new user in array.
+Works as explained.  Adding user into friends Array to be used with next user.

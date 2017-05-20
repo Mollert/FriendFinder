@@ -28,6 +28,7 @@ $("#submitquest").on("click", function() {
 	findLowestFriend()
 	loadModal()
 	clearFeild()
+	saveUser()
 });
 
 //console.log(userInfo);
@@ -71,4 +72,8 @@ function clearFeild() {
 		var secondString = "input[" + firstString + "]";
 		var value = $(secondString).prop("checked", false);
 	}
+};
+
+function saveUser() {
+	$.ajax({url:"/api/frends", userInfo});
 };
